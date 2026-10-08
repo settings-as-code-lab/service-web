@@ -17,5 +17,7 @@
 
 ## 秘密情報
 
+- `.env`、`*.pem`、`*.key` はコミットしない。必要なら Actions secrets か Secret Manager を使う。
+
 - トークン、鍵、`.tfstate`、`.tfvars` をコミットしない。
 - コミットの author には GitHub の noreply アドレスを使う。
